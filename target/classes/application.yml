@@ -1,0 +1,10 @@
+elasticjob:
+  zookeeper-url: 192.168.10.195:2181
+  group-name: elastic-job-group
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/elastic-job-demo?serverTimezone=GMT%2B8
+    driverClassName: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+    username: root
+    password: root
